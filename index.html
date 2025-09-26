@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Zitate">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>Zitate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Zitate</h1>
+    <div id="card">
+      <div class="meta-row">
+        <span id="date" class="chip"></span>
+        <span id="group" class="chip"></span>
+        <span id="count" class="chip"></span>
+      </div>
+      <ul id="list" class="group-list"></ul>
+      <div class="buttons">
+        <button id="toggle">Autoren anzeigen</button>
+        <button id="prev">Zurück</button>
+        <button id="next">Nächste Gruppe</button>
+        <button id="shuffle">Zufall</button>
+      </div>
+      <div class="footer">
+        <button id="refresh">Daten aktualisieren</button>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
